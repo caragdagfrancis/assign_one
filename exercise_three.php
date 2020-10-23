@@ -14,11 +14,7 @@ Input second number:<br>
 
 
 <?php
-// PHP program to find GCD 
-// of two numbers
-
-// Recursive function to 
-// return gcd of a and b
+//Comment for pull request
 
 if(isset($_GET['num3']) || isset($_GET['num4'])) {
     $a=$_GET['num3'];
@@ -35,7 +31,7 @@ function gcd($a, $b)
 
 	return gcd( $b , $a % $b ) ;
 }
-// This code is contributed by Francis Caragdag
+
 ?>
 
 
