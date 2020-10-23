@@ -15,7 +15,7 @@ Input second number:<br>
 <button type="submit" name="d">DIV /</button>
 
 <?php 
-//Comment for pull request
+// PHP code goes here
 
 if(isset($_GET['a'])) {
     
